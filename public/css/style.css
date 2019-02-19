@@ -1,0 +1,72 @@
+body {
+    font-family: Tahoma !important;
+}
+
+ul.categories_list {
+    list-style-type: none;
+}
+
+ul.categories_list li a {
+    display: block;
+    border-top: 1px solid #c2c2c2;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #444;
+    transition: all ease 0.3s;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ul.categories_list li a:hover {
+    opacity: 0.6;
+}
+
+.act-plus, .act-minus, .basket_add {
+    background: #444 !important;
+    color: #fff !important;
+}
+
+ul.categories_list li.active {
+    background: #444;
+}
+
+ul.categories_list li.active a {
+    color: #fff;
+}
+
+.table-goods-order {
+
+}
+
+.header-good-order {
+
+}
+
+.clear-basket {
+    width: 100%;
+    background: #444;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px !important;
+    border-radius: 0px !important;
+    transition: all ease 0.2s;
+}
+
+.clear-basket:hover {
+    opacity: 0.8;
+}
+
+.create_order_btn {
+    width: 100%;
+    background: #444;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px !important;
+    border-radius: 0px !important;
+    transition: all ease 0.2s;
+}
+
+.table-goods-order tr td {
+    padding: 0px;
+}
